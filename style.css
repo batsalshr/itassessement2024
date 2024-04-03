@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 2px;
+    padding: 10px;
+    background-color: #FAF9F6;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1{
+    position: relative;
+    left: 240px;
+    border:10px;
+
+}
+
+.tab{
+    margin: left;
+}
+
+nav, 
+.nav-links{
+    display: flex;
+}
+
+.nav-links{
+    gap: 2rem;
+    list-style: none;
+    font-size: 1.5rem;
+    position: absolute;
+    
+}
+
+section{
+    padding-top: 4vh;
+    height: 96vh;
+    margin: 0 10rem;
+    box-sizing: border-box;
+    min-height: fit-content;
+}
+
+
+ul li a{
+    display:flex;
+    position:relative;
+    top: 1x;
+    left: 550px;
+    animation-duration: 1ms;
+
+    padding: 0px 2px;
+    color: black;
+    justify-content: right;
+}
+ul li a:hover{
+    color:red;
+}
+
+.section-container{
+    display: flex;
+}
+
+
+#profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    height: 80vh;  
+}
+.section__pic-container{
+    display: flex;
+    height: 400px;
+    width: 400px;
+    margin:auto 0 ;
+    align-self: center;
+}
+
+.section__text p{
+    font-weight: 600;
+}
+
+.section__text__p1{
+    text-align: center;
+    
+}
+.section__text{
+    align-self: auto;
+    text-align: center;
+}
+.section__text__p2{
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.title{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#socials-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    gap: 1rem;
+}
+
+.btn-container{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+#socials-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 0.2rem;
+    gap: 0.2rem;
+    height: 67px;
+}
+.btn{
+    font-weight: 600;
+    transition: all 300ms ease;
+    padding: 1rem;
+    width: 8rem;
+    border-radius: 2rem;
+}
+
+.btn-color-1, .btn-color-2{
+    border: rgb(53,53,53) 0.1rem solid;
+}
+
+
+button:hover{
+    color: red;
+    cursor: pointer;
+}
+
+.section-container :hover{
+    stroke-width: 20px;
+    cursor: pointer;
+}
+
+.icon{
+    cursor: pointer;
+}
+
